@@ -1,0 +1,24 @@
+h1{
+    color: black;
+}
+
+h2{
+    color:black;
+}
+#economy h2{
+    color: gold;
+}
+*{
+    color:black;
+    
+}
+* a{
+    color: blue;
+}
+
+.esportes{
+    flex-wrap: wrap;
+}
+.esportes img{
+    display: flex;
+}
