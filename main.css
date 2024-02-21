@@ -6,14 +6,42 @@ h2{
     color:black;
 }
 #economy h2{
-    color: gold;
+    color: yellow;
 }
 *{
     color:black;
     
 }
+* h1, h2, h3, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 * a{
     color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body > header{
+    background-color: black;
+    padding: 16px 0;
+    
+    
+}
+header h1{
+    color: white;
+}
+header .cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 16px;
+}
+header a{
+    color: white;
+    font-weight: bold;
 }
 
 .esportes{
@@ -21,4 +49,57 @@ h2{
 }
 .esportes img{
     display: flex;
+}
+#tech h2 {
+    color: blue;
+}
+#enter h2 {
+    color: green;
+}
+* a{
+    text-decoration: none;
+}
+* a:hover{
+    text-decoration: underline;
+}
+#sports{
+    background-color: beige;
+}
+#economy{
+    background-color: orange;
+}
+#tech{
+    background-color: aqua;
+    float: left;
+}
+#enter{
+    background-color: aquamarine;
+}
+
+.esportes a {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+
+}
+#economy a{
+    background-color: gold;
+    color: rgb(173, 113, 2);
+    display: inline-block;
+    padding: 8px;
+}
+
+#tech a{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+}
+
+#enter a{
+    background-color: green;
+    color:white;
+    display: inline-block;
+    padding: 8px;
 }
