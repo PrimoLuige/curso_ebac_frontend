@@ -1,0 +1,23 @@
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    cursor: pointer;
+}
+.sucess-message{
+    background-color: green;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+.fail-message{
+    background-color: red;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
